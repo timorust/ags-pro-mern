@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:wght@500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+/* הוספת אנימציה ב-CSS */
+@keyframes marquee {
+	from {
+		transform: translateX(100%); /* התחל מימין */
+	}
+	to {
+		transform: translateX(-100%); /* סיים משמאל */
+	}
+}
+
+.marquee-container {
+	position: relative;
+	overflow: hidden; /* מוסיף את האפקט של הריצה */
+}
+
+.marquee-text,
+.marquee-image {
+	display: inline-block;
+	animation: marquee 6s linear infinite; /* זמן האנימציה הוא 20 שניות */
+}
+
+img {
+	transition: opacity 1.5s ease-in-out; /* מעבר חלק עבור תמונות */
+}
+
+img.opacity-100 {
+	opacity: 1; /* מצב גלוי */
+}
+
+img.opacity-0 {
+	opacity: 0; /* מצב נסתר */
+}

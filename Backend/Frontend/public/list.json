@@ -1,0 +1,66 @@
+[
+	{
+		"id": 1,
+		"name": "Glaucoma Congress",
+		"title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, et totam.",
+		"price": 0,
+		"category": "Free",
+		"image": "./meeting1.jpg"
+	},
+	{
+		"id": 2,
+		"name": "Eye Congress",
+		"title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, et totam.",
+		"price": 10,
+		"category": "Free",
+		"image": "./meeting2.jpg"
+	},
+	{
+		"id": 3,
+		"name": "Soon Congress!!!",
+		"title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, et totam.",
+		"price": 20,
+		"category": "Free",
+		"image": "./meeting3.png"
+	},
+	{
+		"id": 4,
+		"name": "Soon Congress",
+		"title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, et totam.",
+		"price": 110,
+		"category": "soon",
+		"image": "./meeting3.png"
+	},
+	{
+		"id": 5,
+		"name": "Free Stile Congress",
+		"title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, et totam.",
+		"price": 330,
+		"category": "active",
+		"image": "./meeting3.png"
+	},
+	{
+		"id": 6,
+		"name": "Dock Congress",
+		"title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, et totam.",
+		"price": 90,
+		"category": "Dea",
+		"image": "./meeting3.png"
+	},
+	{
+		"id": 7,
+		"name": "Story Congress",
+		"title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, et totam.",
+		"price": 50,
+		"category": "story",
+		"image": "./meeting3.png"
+	},
+	{
+		"id": 8,
+		"name": "First Congress",
+		"title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, et totam.",
+		"price": 80,
+		"category": "Free",
+		"image": "./meeting3.png"
+	}
+]
